@@ -23,7 +23,7 @@ fi
 if [ ! -d node_modules ] || [ ! -f public/build/manifest.json ]; then
     echo "Installing Node.js dependencies..."
     npm ci --only=production
-    echo "🔨 Building frontend assets..."
+    echo "Building frontend assets..."
     npm run build
     echo "Frontend assets built successfully."
 else
