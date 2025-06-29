@@ -21,7 +21,7 @@ This project uses a multi-container Docker setup with the following services:
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repository-url>
+   git clone git@github.com:LSNG1/docker.git
    cd docker
    ```
 
