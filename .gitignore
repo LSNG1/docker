@@ -1,0 +1,51 @@
+# Docker related files
+docker-compose.override.yml
+.docker/
+*.log
+
+# Logs directory
+logs/
+*.log
+
+# Environment files
+.env.local
+.env.*.local
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Docker volumes data (if any)
+data/
+volumes/
+
+# Backup files
+*.bak
+*.backup
+
+# Node modules (if any in root)
+node_modules/
+
+# PHP Composer (if any in root)
+vendor/
+
+# Build artifacts
+build/
+dist/
